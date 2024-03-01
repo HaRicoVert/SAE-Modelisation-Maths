@@ -22,7 +22,7 @@ Le projet est organisé comme suit :
   - Il utilise la bibliothèque OpenCV pour la capture d'images et la détection de visages à l'aide de classificateurs en cascade. Le code d'origine a légerement était modifié.
 ### Répertoire `data`
 
-- **data/noms.pkl**
+- **data/prenoms.pkl**
   - Fichier contenant les noms des personnes dont les visages ont été capturés.
   
 - **data/admis.pkl**
@@ -30,10 +30,19 @@ Le projet est organisé comme suit :
 
 - **data/visages.pkl**
   - Ensemble de données contenant les images des visages capturés.
-## - **Notebook 2 : Classification des Visages**
-  - Ce notebook traite la classification des visages en utilisant différents algorithmes de machine learning. Initialement, il est configuré pour utiliser des algorithmes classiques comme la régression logistique et les arbres de décision.
-  - Nous adaptions également ce notebook pour inclure des algorithmes de classification par réseaux de neurones traditionnels et convolutionnels pour améliorer la précision de la reconnaissance.
-
-## Conclusion
-
-Ce projet fournit une base solide pour la création d'un système de reconnaissance de visages. Il est extensible et peut être adapté à différents cas d'utilisation grâce à l'utilisation d'algorithmes de classification variés, notamment ceux basés sur les réseaux de neurones. L'utilisation de GitHub facilite la collaboration et la gestion du code source.
+ 
+## - **Les différents Notebooks : Plusieurs méthodes**
+  - Les Notebooks que nous allons montrer ci-dessous traitent la classification des visages en utilisant différents algorithmes de machine learning. On retrouve différents algorithmes traditionnels comme "k-nearest neighbors", "Logistic Regression", "Random Forest, "Multi-layer Perceptron" et un algorithme convolutionnel : "Convolutional Neural Network" afin d'améliorer la précision.
+  
+## - **Notebook 1 : KNN**
+  - Ce notebook traite la classification des visages en utilisant l'algorithme KNN. Cet algorithme fonctionne de manière générale assez bien et est assez précis.
+## - **Notebook 2 : Logistic Regression**
+  - Ce notebook traite la classification des visages en utilisant l'algorithme Logistic Regression. Cet algorithme est le moins efficace que nous avons pu essayer, il se trompe régulièrement sur les personnes qu'il reconnait. 
+## - **Notebook 3 : Random Forest**
+  - Ce notebook traite la classification des visages en utilisant l'algorithme Random Forest*. Cet algorithme peut être utiliser bien qu'il ne soit pas le meilleur. Il reste tout de même plus efficace que celui utilisant la Regression logistique selon nos tests 
+## - **Notebook 4 : MLP**
+  - Ce notebook traite la classification des visages en utilisant l'algorithme MLP. Cet algorithme est assez efficace sans qu'il soit le meilleur qu'on ai pu essayer
+## - **Notebook 5 : CNN**
+  - Ce notebook traite la classification des visages en utilisant l'algorithme CNN. Cet algorithme est le plus efficace que nous avons pu essayer. Sa reconnaissance faciale est rapide, efficace et sans erreurs.
+## - Conclusion
+ - Ce projet fournit une base solide pour la création d'un système de reconnaissance de visages. Il est extensible et peut être adapté à différents cas d'utilisation grâce à l'utilisation d'algorithmes de classification variés, notamment ceux     basés sur les réseaux de neurones. L'utilisation de GitHub facilite la collaboration et la gestion du code source.
