@@ -44,5 +44,8 @@ Le projet est organisé comme suit :
   - Ce notebook traite la classification des visages en utilisant l'algorithme MLP. Cet algorithme est assez efficace sans qu'il soit le meilleur qu'on ai pu essayer
 ## - **Notebook 5 : CNN**
   - Ce notebook traite la classification des visages en utilisant l'algorithme CNN. Cet algorithme est le plus efficace que nous avons pu essayer. Sa reconnaissance faciale est rapide, efficace et sans erreurs.
+
+Nous avons compris que lorsque qu'un visage est détecté même s'il n'a pas été enregistré, les modèles vont quand même essayé de reconnaitre la personne.
+
 ## - Conclusion
  - Ce projet fournit une base solide pour la création d'un système de reconnaissance de visages. Il est extensible et peut être adapté à différents cas d'utilisation grâce à l'utilisation d'algorithmes de classification variés, notamment ceux     basés sur les réseaux de neurones. L'utilisation de GitHub facilite la collaboration et la gestion du code source.
