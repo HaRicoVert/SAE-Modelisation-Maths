@@ -1,3 +1,4 @@
+# Esteban PAGIS / Corentin ALLALOU
 # SAE Modélisation Mathématiques
 
 Ce projet vise à créer un système de reconnaissance de visages utilisant des techniques de traitement d'images et de classification. Le système peut être adapté pour un cas d'utilisation spécifique, notamment la reconnaissance binaire pour déterminer si un visage appartient à une personne spécifique ou non. Nous utilisons différents algorithmes de classification, y compris des réseaux de neurones, pour ce faire.
